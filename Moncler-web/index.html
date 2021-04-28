@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+		</style>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Crossroads Slideshow | Codrops</title>
+		<meta name="description" content="An experimental slideshow with an inclined look with three slide previews and a content view on click." />
+		<meta name="keywords" content="slideshow, javascript, tweenmax, rotation, animation, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="content">
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content fondo">
+						<div class="img img--content" style="background-image: url(img/2fondo.jpeg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">2 Moncler</span>
+						<h2 class="content__item-header-title" style="color:black">VERONICA LEONI
+							& SERGIO ZAMBON</h2>
+					</header>
+					<div class="content__item-copy" style="color:black">
+						<p class="content__item-copy-text">
+							“Imagining an army of women on a quest for a lost paradise, I looked at the exoticism of the beginning of the XX century and interpreted it in a modern, intensely functional way. It’s all about femininity and elegance, with a twistedly practical angle. I am particularly proud of the collaboration with gender equality group Girl Up on a special item with the slogan: IT’S HER RIGHT”.
+
+							<p>1952</p>
+						</p>
+						<a href="https://youtu.be/rGD40r36o6Y" class="content__item-copy-more" style="color: black">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content fondo">
+						<div class="img img--content" style="background-image: url(img/4fondo.jpeg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">4 Moncler</span>
+						<h2 class="content__item-header-title" style="color: white">Simone Rocha</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text" style="color:white">
+							“This collection was originally inspired by Fellini, dance, and the fantasy of dress. It is very much my interpretation of Moncler's technical expertise, exploring fabrications and silhouettes but bringing it all under the female gaze in my idea of modern femininity”.
+
+							<p style="color:white">SIMONE ROCHA</p>
+						</p>
+						<a href="https://youtu.be/5BNta-DZweA" class="content__item-copy-more" style="color:white">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content fondo">
+						<div class="img img--content" style="background-image: url(img/6fondo.jpeg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">6 Moncler</span>
+						<h2 class="content__item-header-title" style="color: whitesmoke">1017 ALYX 9SM</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text" style="color:white">
+							“Working with Moncler means a lot of technology, applied to luxury garments that are meant to be wearable. We injected our own take into these principles, fusing our respective identities”.
+
+						<p style="color:white">MATTHEW WILLIAMS</p>
+						</p>
+						<a href="https://youtu.be/eVIjx0G5ZjY" class="content__item-copy-more" style="color: #feeb00">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content fondo">
+						<div class="img img--content" style="background-image: url(img/8fondo4.jpeg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta" style="color:black">8 Moncler</span>
+						<h2 class="content__item-header-title" style="color:black">Richard Quinn</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text" style="color:black">
+							“I wanted to create a 60s meets space age dynamic, a transition from the past to the future in my signature prints that match and clash, with strong headpieces for a vibrant idea of total luxe”. 
+
+							<p style="color:black">RICHARD QUINN</p>
+						</p>
+						<a href="https://youtu.be/3X6MMUhtdeU" class="content__item-copy-more" style="color:black">more +</a>
+					</div>
+				</article>
+			</div>
+			<div class="revealer">
+				<div class="revealer__inner"></div>
+			</div>
+			<div class="grid grid--slideshow">
+				<figure class="grid__item grid__item--slide">
+					<span class="number">02</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/moncler-2.jpeg);"></div>
+					</div>
+					<figcaption class="caption">Fall 2021, Menswear</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">04</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/moncler-4.png);"></div>
+					</div>
+					<figcaption class="caption">Fall 2020, Ready-to-wear</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">06</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/moncler-6.png);"></div>
+					</div>
+					<figcaption class="caption">Fall 2020, Ready-to-wear</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">08</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/moncler-8.png);"></div>
+					</div>
+					<figcaption class="caption">Fall 2020, Ready-to-wear</figcaption>
+				</figure>
+				<div class="titles-wrap">
+					<div class="grid grid--titles">
+						<h3 class="grid__item grid__item--title">1952</h3>
+						<h3 class="grid__item grid__item--title">Rocha</h3>
+						<h3 class="grid__item grid__item--title">ALYX</h3>
+						<h3 class="grid__item grid__item--title">Quinn</h3>
+					</div>
+				</div>
+				<div class="grid grid--interaction">
+					<div class="grid__item grid__item--cursor grid__item--left"></div>
+					<div class="grid__item grid__item--cursor grid__item--center"></div>
+					<div class="grid__item grid__item--cursor grid__item--right"></div>
+				</div>
+			</div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Crossroads Slideshow</h1>
+					<div class="frame__links">
+						<a href="https://tympanus.net/Development/ExplodingObjects/">Previous Demo</a>
+						<a href="https://tympanus.net/codrops/?p=39863">Article</a>
+						<a href="https://github.com/codrops/CrossroadsSlideshow/">GitHub</a>
+					</div>
+					<div class="frame__mode" role="radiogroup">
+						<div class="frame__mode-item frame__mode-item--dark">
+							<input id="mode-1" type="radio" name="mode" class="frame__mode-input"></input>
+							<label class="frame__mode-label" for="mode-1">Dark mode</label>
+						</div>
+						<div class="frame__mode-item">
+							<input id="mode-2" type="radio" name="mode" class="frame__mode-input" checked></input>
+							<label class="frame__mode-label frame__mode-label--light" for="mode-2">Light mode</label>
+						</div>
+					</div>
+				</div>
+			</div><!-- /frame -->
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>
